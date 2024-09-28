@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "chemical_name": "Sodium Chloride",
+        "vendor": "ChemCorp",
+        "density": "2.165",
+        "viscosity": "1.002",
+        "packaging": "Bottle",
+        "pack_size": 500,
+        "unit": "g",
+        "quantity": 50
+    },
+    {
+        "id": 2,
+        "chemical_name": "Sulfuric Acid",
+        "vendor": "AcidSuppliers",
+        "density": "1.84",
+        "viscosity": "26.7",
+        "packaging": "Drum",
+        "pack_size": 10,
+        "unit": "L",
+        "quantity": 5
+    },
+    {
+        "id": 3,
+        "chemical_name": "Ethanol",
+        "vendor": "BioChem",
+        "density": "0.789",
+        "viscosity": "1.2",
+        "packaging": "Canister",
+        "pack_size": 25,
+        "unit": "L",
+        "quantity": 8
+    },
+    {
+        "id": 4,
+        "chemical_name": "Acetone",
+        "vendor": "Solvents Inc.",
+        "density": "0.784",
+        "viscosity": "0.32",
+        "packaging": "Bottle",
+        "pack_size": 1,
+        "unit": "L",
+        "quantity": 20
+    },
+    {
+        "id": 5,
+        "chemical_name": "Methanol",
+        "vendor": "ChemLab",
+        "density": "0.791",
+        "viscosity": "0.59",
+        "packaging": "Bottle",
+        "pack_size": 2,
+        "unit": "L",
+        "quantity": 12
+    },
+    {
+        "id": 6,
+        "chemical_name": "Benzene",
+        "vendor": "PetroChem",
+        "density": "0.876",
+        "viscosity": "0.65",
+        "packaging": "Drum",
+        "pack_size": 20,
+        "unit": "L",
+        "quantity": 3
+    },
+    {
+        "id": 7,
+        "chemical_name": "Nitric Acid",
+        "vendor": "LabChem",
+        "density": "1.51",
+        "viscosity": "1.9",
+        "packaging": "Bottle",
+        "pack_size": 2,
+        "unit": "L",
+        "quantity": 6
+    },
+    {
+        "id": 8,
+        "chemical_name": "Ammonium Hydroxide",
+        "vendor": "BaseSuppliers",
+        "density": "0.91",
+        "viscosity": "1.0",
+        "packaging": "Canister",
+        "pack_size": 10,
+        "unit": "L",
+        "quantity": 15
+    },
+    {
+        "id": 9,
+        "chemical_name": "Sodium Hydroxide",
+        "vendor": "ChemBase",
+        "density": "2.13",
+        "viscosity": "70.0",
+        "packaging": "Bag",
+        "pack_size": 25,
+        "unit": "kg",
+        "quantity": 10
+    },
+    {
+        "id": 10,
+        "chemical_name": "Hydrogen Peroxide",
+        "vendor": "Oxidizers Inc.",
+        "density": "1.45",
+        "viscosity": "1.25",
+        "packaging": "Bottle",
+        "pack_size": 5,
+        "unit": "L",
+        "quantity": 4
+    },
+    {
+        "id": 11,
+        "chemical_name": "Glycerin",
+        "vendor": "Biotech Labs",
+        "density": "1.26",
+        "viscosity": "1412",
+        "packaging": "Bottle",
+        "pack_size": 1,
+        "unit": "L",
+        "quantity": 30
+    },
+    {
+        "id": 12,
+        "chemical_name": "Isopropanol",
+        "vendor": "SolventSuppliers",
+        "density": "0.785",
+        "viscosity": "2.2",
+        "packaging": "Canister",
+        "pack_size": 25,
+        "unit": "L",
+        "quantity": 7
+    },
+    {
+        "id": 13,
+        "chemical_name": "Formaldehyde",
+        "vendor": "ChemicalCorp",
+        "density": "1.09",
+        "viscosity": "1.45",
+        "packaging": "Bottle",
+        "pack_size": 2,
+        "unit": "L",
+        "quantity": 11
+    },
+    {
+        "id": 14,
+        "chemical_name": "Toluene",
+        "vendor": "Solvents Inc.",
+        "density": "0.867",
+        "viscosity": "0.59",
+        "packaging": "Drum",
+        "pack_size": 10,
+        "unit": "L",
+        "quantity": 2
+    },
+    {
+        "id": 15,
+        "chemical_name": "Hydrochloric Acid",
+        "vendor": "AcidBase Co.",
+        "density": "1.18",
+        "viscosity": "2.0",
+        "packaging": "Canister",
+        "pack_size": 5,
+        "unit": "L",
+        "quantity": 9
+    }
+]

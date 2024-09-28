@@ -1,0 +1,127 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: none;
+    padding: 10px;
+}
+/* Adds space outside the cell */
+.cell-content {
+    margin: 4px;
+    
+}
+
+/* To highlight on selection */
+.selected-row {
+    background-color: hwb(228 78% 1%);
+}
+
+.selected {
+    background-color: #e3e9f0;
+}
+
+/* form stying */
+
+form {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.sort-options {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* delete button style */
+
+#deleteButton img {
+    filter: invert(21%) sepia(98%) saturate(3645%) hue-rotate(358deg) brightness(97%) contrast(103%);
+}
+
+/* save button style */
+
+#saveTable img {
+    filter: invert(32%) sepia(91%) saturate(3183%) hue-rotate(180deg) brightness(95%) contrast(99%);
+}
+
+/* Table styles */
+#chemicalTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #00000020;
+}
+
+#chemicalTable th,
+#chemicalTable td {
+    border: none;
+    padding: 10px;
+}
+
+/* Header styles */
+#chemicalTable th {
+    vertical-align: top;
+    font-weight: normal;
+    border: none;
+}
+
+/* Add right border to Chemical Name column (body only) */
+#chemicalTable th:nth-child(3),
+#chemicalTable td:nth-child(3) {
+    border-right: 1px solid #00000050;
+}
+
+/* Style for Density, Viscosity, and Quantity columns (body only) */
+#chemicalTable tbody td:nth-child(5),
+#chemicalTable tbody td:nth-child(6),
+#chemicalTable tbody td:nth-child(10) {
+    position: relative;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+}
+
+#chemicalTable tbody td:nth-child(5)::after,
+#chemicalTable tbody td:nth-child(6)::after,
+#chemicalTable tbody td:nth-child(10)::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 1px solid #00000050;
+    z-index: -1;
+}
+
+/* Add space between rows */
+#chemicalTable tbody tr {
+    border-bottom: 10px solid transparent;
+}
+
+/* Remove extra space for the last row */
+#chemicalTable tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Ensure header row doesn't have bottom spacing */
+#chemicalTable thead tr {
+    border-bottom: none;
+}
+
+/* Maintain existing styles */
+.cell-content {
+    margin: 4px;
+}
